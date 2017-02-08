@@ -5,7 +5,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue";
-  font-size: 14px;
 }
 
 .container{
@@ -44,7 +43,7 @@ select {
 }
 
 /* header */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans";
 }
 
@@ -78,24 +77,39 @@ p {
 }
 
 /* navbar */
-.nav{
-  background-color: green;
-  padding: 15px;
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
 }
 
-.nav li{
-  color: white;
-  display: inline;
-  font-size: 25px;
+.nav li {
+    float: left;
 }
 
-.nav li a{
-  text-decoration: none;
-  color: white;
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
 }
 
-.nav li a:hover{
-  text-shadow: 2px 2px 4px #000000;
+.nav li a:hover:not(.active) {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.nav .active {
+    background-color: #4CAF50;
+}
+
+.nav .right{
+  float: right;
 }
 
 /* pagination */
@@ -118,4 +132,10 @@ p {
 /* hr */
 hr{
   margin-bottom: 50px;
+}
+
+/* center */
+.center{
+  margin-left: 0;
+  margin-right: 0;
 }
