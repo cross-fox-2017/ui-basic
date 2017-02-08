@@ -1,114 +1,118 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
+============================= */
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  color: #3a3a3a;
-}
-
-p {
-  font-size: .95em;
-  margin-bottom: 1.8em;
-}
-
-h2,
-h3,
-a {
-  color: #0A5856;
-}
-
-h2,
-h3 {
-  margin-top: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
-
-.name {
-  font-size: 1.25em;
-  margin: 0;
-}
-
-.main-nav {
-  margin-top: 5px;
-}
-
-.name a,
-.main-nav a {
-  text-align: center;
+.container-center{
+  margin: 0 auto;
   display: block;
-  padding: 10px 15px;
+  width: 960px;
 }
 
-.main-nav a {
-  font-size: .95em;
-  color: #3D7699;
-  text-transform: uppercase;
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ea4c88;
 }
 
-.main-nav a:hover {
-  color: #0A5856;
+.navbar-btn {
+    float: left;
+    /*padding: 14px 16px;*/
 }
 
-/* ---- Layout Containers ---- */
-
-.main-header {
-  padding-top: .5em;
-  padding-bottom: .5em;
+.navbar-btn a {
+    display: block;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px 16px;
 }
 
-.banner,
-.main-footer {
+.login-btn {
+    /*display: block;*/
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    background-color: #f58d12;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    /*font-family:*/
+}
+
+.navbar-btn a:hover {
+    background-color: #f14e12;
+}
+
+.navbar-btn a:active {
+    background-color: #d04b1a;
+}
+
+.navbar-btn:hover {
+    color: white;
+    background-color: #c84a1b;
+}
+
+.navbar-btn:active {
+    color: white;
+    background-color: #734230;
+}
+
+.btn-right{
+  float: right;
+  margin-right: 25px;
+}
+
+#header{
+  background-color: rgb(61, 135, 182);
+  color: white;
+  padding: 80px 16px
+}
+
+.text-center{
+    text-align: center;
+}
+
+#header-text{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#subheader-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 5% auto;
+  color: rgb(214, 211, 211)
+}
+.obj-center{
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-header{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.banner {
-  color: #fff;
-  background: #3D7699;
-  padding: 3.2em 0;
-  margin-bottom: 60px;
+.btn-header:hover{
+  background-color: #329136;
 }
 
-.col {
-  padding-right: 1em;
-  padding-left: 1em;
+.btn-header:active{
+  background-color: #1c621f;
 }
 
-.main-footer {
-  background: #d9e4ea;
-  padding: 2em 0;
-  margin-top: 30px;
+.img-product{
+  float: left;
 }
 
-/* ---- Page Elements ---- */
+.magic{ -webkit-filter: sepia(100%)}
+.magic:hover{-webkit-filter: none}
 
-.logo {
-  width: 190px;
-}
-
-.headline {
-  margin-bottom: 0;
-}
-
-/* ================================= 
-  Media Queries
-==================================== */
-
+/*.product-background{
+  background-color: white);
+  color: white;
+  padding: 300px 16px
+}*/
