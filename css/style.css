@@ -1,137 +1,31 @@
-/* =================================
-  Base Element Styles
-==================================== */
+============================= */
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  color: #3a3a3a;
-}
-
-p {
-  font-size: .95em;
-  margin-bottom: 1.8em;
-}
-
-h2,
-h3,
-a {
-  color: #0A5856;
-}
-
-h2,
-h3 {
-  margin-top: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* =================================
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
-
-.name {
-  font-size: 1.25em;
-  margin: 0;
-}
-
-.main-nav {
-  margin-top: 5px;
-}
-
-.name a,
-.main-nav a {
-  text-align: center;
+.container-center{
+  margin: 0 auto;
   display: block;
-  padding: 10px 15px;
+  width: 960px;
 }
 
-.main-nav a {
-  font-size: .95em;
-  color: #3D7699;
-  text-transform: uppercase;
-}
-
-.main-nav a:hover {
-  color: #0A5856;
-}
-
-/* ---- Layout Containers ---- */
-
-.main-header {
-  padding-top: .5em;
-  padding-bottom: .5em;
-}
-
-.banner,
-.main-footer {
-  text-align: center;
-}
-
-.banner {
-  color: #fff;
-  background: #3D7699;
-  padding: 3.2em 0;
-  margin-bottom: 60px;
-}
-
-.col {
-  padding-right: 1em;
-  padding-left: 1em;
-}
-
-.main-footer {
-  background: #d9e4ea;
-  padding: 2em 0;
-  margin-top: 30px;
-}
-
-/* ---- Page Elements ---- */
-
-.logo {
-  width: 190px;
-}
-
-.headline {
-  margin-bottom: 0;
-}
-
-/* =================================
-  Media Queries
-==================================== */
-
-
-ul {
+#navbar {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ea4c88;
 }
 
-li {
+.navbar-btn {
     float: left;
     /*padding: 14px 16px;*/
 }
 
-li a {
+.navbar-btn a {
     display: block;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    padding: 14px 16px;
-    /*font-family:*/
+    padding: 20px 16px;
 }
 
-button {
+.login-btn {
     /*display: block;*/
     color: white;
     padding: 18px 32px;
@@ -143,39 +37,82 @@ button {
     /*font-family:*/
 }
 
-li a:hover {
+.navbar-btn a:hover {
     background-color: #f14e12;
 }
 
-li a:active {
+.navbar-btn a:active {
     background-color: #d04b1a;
 }
 
-button:hover {
-    /*display: block;*/
+.navbar-btn:hover {
     color: white;
-    padding: 18px 32px;
-    text-align: center;
     background-color: #c84a1b;
-    border: none;
-    display: inline-block;
-    font-size: 16px;
-    /*font-family:*/
 }
 
-button:active {
-    /*display: block;*/
+.navbar-btn:active {
     color: white;
-    padding: 18px 32px;
-    text-align: center;
     background-color: #734230;
-    border: none;
-    display: inline-block;
-    font-size: 16px;
-    /*font-family:*/
 }
 
 .btn-right{
   float: right;
   margin-right: 25px;
 }
+
+#header{
+  background-color: rgb(61, 135, 182);
+  color: white;
+  padding: 80px 16px
+}
+
+.text-center{
+    text-align: center;
+}
+
+#header-text{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#subheader-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 5% auto;
+  color: rgb(214, 211, 211)
+}
+.obj-center{
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-header{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn-header:hover{
+  background-color: #329136;
+}
+
+.btn-header:active{
+  background-color: #1c621f;
+}
+
+.img-product{
+  float: left;
+}
+
+.magic{ -webkit-filter: sepia(100%)}
+.magic:hover{-webkit-filter: none}
+
+/*.product-background{
+  background-color: white);
+  color: white;
+  padding: 300px 16px
+}*/
