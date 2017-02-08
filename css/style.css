@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -36,7 +36,7 @@ img {
   max-width: 100%;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -108,7 +108,74 @@ img {
   margin-bottom: 0;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    /*padding: 14px 16px;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    /*font-family:*/
+}
+
+button {
+    /*display: block;*/
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    background-color: #f58d12;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    /*font-family:*/
+}
+
+li a:hover {
+    background-color: #f14e12;
+}
+
+li a:active {
+    background-color: #d04b1a;
+}
+
+button:hover {
+    /*display: block;*/
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    background-color: #c84a1b;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    /*font-family:*/
+}
+
+button:active {
+    /*display: block;*/
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    background-color: #734230;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    /*font-family:*/
+}
+
+.btn-right{
+  float: right;
+  margin-right: 25px;
+}
