@@ -61,6 +61,7 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 15px
 }
 
 .btn.btn-green{
@@ -131,11 +132,34 @@ p {
 
 /* hr */
 hr{
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 /* center */
 .center{
   margin-left: 0;
   margin-right: 0;
+}
+.text-center{
+  text-align: center;
+}
+
+/* img */
+.img-container{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+/* items */
+.item-container{
+  width: 100%
+}
+
+.item-container .item{
+  float: left;
+  height: 100px;
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
