@@ -1,0 +1,63 @@
+html {
+  font-family: "Comic Sans MS", cursive, sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+
+.container {
+    width : auto;
+    position : relative;
+    padding: 10px 12px;
+}
+
+.menubar {
+  border: 2px solid #e7e7e7;
+  background-color: rgba(255, 0, 0, 0.3);
+
+}
+
+.menubar li {
+  display: inline-block;
+  padding: 5px 7px;
+}
+
+.menubar-kiri {
+  float:left;
+}
+
+.menubar-kanan {
+  float:right;
+}
+
+.col-sedang{
+  margin:5px 8px ;
+  width: 300px;
+  border: 1px solid #e7e7e7;
+}
+
+.col-kecil{
+  margin:2px 5px ;
+  width:100px;
+  border: 1px solid #e7e7e7;
+}
+
+.col-besar{
+  margin:8px 11px ;
+  width:500px;
+  border: 1px solid #e7e7e7;
+}
+
+
+.row{
+  padding: 10px 20px;
+
+}
