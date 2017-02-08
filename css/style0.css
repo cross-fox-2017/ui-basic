@@ -37,6 +37,7 @@
 }
 .text-input {
   padding: 10px 15px;
+  width: 100%;
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
@@ -73,7 +74,6 @@
   margin-left: 15px;
   margin-right: 15px;
   display: inline-flex;
-  width: 100%;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12  {
   position: relative;
@@ -85,21 +85,32 @@
 .header {
   text-align: center;
   background-color: #a4a4a4;
+  background-image: url("http://wpsites.net/wp-content/uploads/2013/02/diamond.png");
+  background-size: 100%;
+  padding: 50px;
+  color: gray;
 }
 .footer {
   text-align: center;
-  background-color: #a4a4a4;
+  background-color: #ebebeb;
   bottom: 0px;
+  padding: 2px;
+  font-size: 12px;
 }
 .gambar {
   width: auto;
   height: auto;
 }
 
-.clear {
-  clear: both;
-}
-
 .container {
+  width: 100%;
+}
+.marginleft5 {
+  margin-left: 5px;
+}
+.marginbottom20 {
+  margin-bottom: 20px;
+}
+img{
   width: 100%;
 }
