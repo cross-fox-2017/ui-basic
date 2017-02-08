@@ -1,5 +1,10 @@
 $lime = hsla(80, 100%, 70%, .5)
 $teal = #669999
+$border-style = {
+  border 1px solid green
+  border-radius 10px
+}
+
 
 * {
   box-sizing border-box
@@ -91,8 +96,7 @@ p {
 .mypanel {
   padding 30px
   background-color white
-  border 1px solid green
-  border-radius 10px
+  $border-style
   max-width 300px
   text-align center
   display flex
@@ -100,8 +104,7 @@ p {
   justify-content center
   align-items center
   &-form {
-    border 1px solid green
-    border-radius 10px
+    $border-style
     padding 30px
     margin-top 40px
     margin-bottom 40px
