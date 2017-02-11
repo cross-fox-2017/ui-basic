@@ -1,114 +1,127 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
-
-* {
-  box-sizing: border-box;
+body{
+  background: #d7dde5;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  color: #3a3a3a;
-}
-
-p {
-  font-size: .95em;
-  margin-bottom: 1.8em;
-}
-
-h2,
-h3,
-a {
-  color: #0A5856;
-}
-
-h2,
-h3 {
-  margin-top: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
-
-.name {
-  font-size: 1.25em;
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
   margin: 0;
+  text-align: left;
+  float:right;
+  width: 100%;
+  border-radius: 1%;
+  font-size: 50px;
+  text-decoration: underline
 }
 
-.main-nav {
-  margin-top: 5px;
+.navbar-left{
+  background-color: #131f33;
+
+}
+.navbar-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.name a,
-.main-nav a {
+.navbar-left li {
+    float: left;
+}
+
+.navbar-left li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-left li a:hover {
+  background-color: white;
+    color: black;
+}
+
+.floats{
+  margin-left:0;
+}
+
+.floating-box {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 190px;
+    margin: 40px;
+
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid red;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height:100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.center{
   text-align: center;
-  display: block;
-  padding: 10px 15px;
 }
 
-.main-nav a {
-  font-size: .95em;
-  color: #3D7699;
-  text-transform: uppercase;
+.this-web-font{
+  font-family: "Courier New", Courier, monospace;
 }
 
-.main-nav a:hover {
-  color: #0A5856;
+[class*="col-"] {
+    width: 100%;
 }
-
-/* ---- Layout Containers ---- */
-
-.main-header {
-  padding-top: .5em;
-  padding-bottom: .5em;
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
 }
-
-.banner,
-.main-footer {
-  text-align: center;
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
-
-.banner {
-  color: #fff;
-  background: #3D7699;
-  padding: 3.2em 0;
-  margin-bottom: 60px;
-}
-
-.col {
-  padding-right: 1em;
-  padding-left: 1em;
-}
-
-.main-footer {
-  background: #d9e4ea;
-  padding: 2em 0;
-  margin-top: 30px;
-}
-
-/* ---- Page Elements ---- */
-
-.logo {
-  width: 190px;
-}
-
-.headline {
-  margin-bottom: 0;
-}
-
-/* ================================= 
-  Media Queries
-==================================== */
-
